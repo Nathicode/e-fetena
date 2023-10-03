@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Gabarito', cursive;
+}
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: lightgreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#desc {
+    animation-duration: .5s;
+    animation-name: ;
+}
+@keyframes descr{
+    from {
+opacity: .5;
+    }
+    to {
+       opacity: 1;
+    }
+}
+sub {
+    font-size: small;
+}
+.med {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    margin-top: 2cm;
+    background-color: lightgreen;
+    paddcing: 30px;
+}
+label {
+  width: 100%;  
+  padding: 5px;
+}
+.med button {
+    margin: auto;
+    margin-top: 1cm;
+    width: 90px;
+    background-color: black;
+    color: lightgreen;
+    border: none;
+    padding: 3px;
+    border-radius: 10px;
+    
+}
+.med button:hover {
+    box-shadow:  0 0 10px black;
+}
+select {
+    background-color: black;
+    color: lightgreen;
+    border: none;
+    border-radius: 3px;
+    accent-color: lightgreen;
+
+}
+select:focus {
+    outline: none;
+}
+.med input {
+    background-color: black;
+    border: none;
+    color: lightgreen;
+    border-radius: 3px;
+}
+.med input::placeholder {
+    text-align: center;
+    color: lightgreen;
+}
+.med label::after {
+    content: "?";
+}
+.maign label {
+    text-align: center;
+    margin: auto;
+    margin-left: 10px;
+}
+.main p {
+    margin-left: 10px;
+}
+.main {
+    margin-top: 1cm;
+    /*margin: auto;*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 1cm;
+    
+}
+.footer input {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 5px;
+    text-transform: lowercase;
+}
+input:focus {
+    border: none;
+    box-shadow: 0 0 10px lightgreen;
+    outline: none;
+}
+.footer button {
+    width: 100px;
+    margin: auto;
+    margin-top: 1cm;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+    
+    
+}
+.footer button:hover {
+    box-shadow: 0 0 10px lightgreen;
+}
+.footer label {
+    padding-bottom: 15px;
+}
+#p {
+    
+    
+    background: lightgreen;
+    color: black;
+    margin: auto;
+    margin-top: 1cm;
+    padding: 5px;
+    border-radius: 5px;
+}
